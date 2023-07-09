@@ -6,6 +6,7 @@ import './App.css'
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Country from './pages/Country';
+import Place from './pages/Place';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/country/:name' element={<Country />} />
+        <Route path='/place/:name' element={<Place />} />
       </Routes>
 
 
